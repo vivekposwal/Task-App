@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently\"npm start\"\"npm run client\""
+    "build": "npm install && cd frontend && npm install && npm run build"
   },
   "author": "Vivek Poswal",
   "license": "ISC",
